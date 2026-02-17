@@ -1,0 +1,26 @@
+h3 {
+  font-size: 1.7rem;
+  text-align: center;
+  color: white;
+}
+.imagens {
+  display: grid;
+  grid-template: repeat(2,1fr) / repeat(2, 1fr) ;
+  gap: 15px;
+  background-color: #000053;
+  padding: 10px;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon:hover {
+  transform: scale(1.07);
+  background-color: #000004;
+  border-radius: 9px;
+}
+img {
+  height: 100px;
+  width: 100px;
+}
