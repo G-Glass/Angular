@@ -1,0 +1,29 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  background-color: #000228;
+  height: 50px;
+}
+header:hover {
+  transform: scale(1.02);
+}
+
+h2{
+  background: linear-gradient(to right, purple,red);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+#clicar_menu:hover {
+  background-color: white;
+  color: black;
+}
+
+main {
+  margin-top: 7rem;
+}

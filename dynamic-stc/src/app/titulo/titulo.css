@@ -1,0 +1,16 @@
+section {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+h2 {
+  background: linear-gradient(to right, mediumvioletred,blue,red);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 1.8rem;
+}
+h3 {
+  color: aliceblue;
+  font-size: 1.4rem;
+  line-height: 4rex;
+}

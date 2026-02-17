@@ -1,4 +1,24 @@
 
 <div>
-  <h1>Hello Dynamic-stc</h1>
+  <header>
+    <div class="D_stc">
+      <h2>D-stc</h2>
+    </div>
+    <h3>Dynamic-stc</h3>
+    
+    <div (click)="meuMenu.toggle()">
+      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" id="clicar_menu" class="bi bi-list" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+      </svg>
+    </div>
+  </header>
+  
+  <div>
+    <app-menu #meuMenu></app-menu>
+  </div>
+  
+  <main>
+    <app-titulo class="Titulo"></app-titulo>
+    <app-conteudo></app-conteudo>
+  </main>
 </div>
