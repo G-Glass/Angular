@@ -28,6 +28,7 @@ img {
 @media screen and (min-width: 756px){
   .imagens {
     display: flex;
+    align-items: center;
     justify-content: space-around;
   }
 }
