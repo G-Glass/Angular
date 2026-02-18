@@ -7,7 +7,7 @@ h3 {
   display: grid;
   grid-template: repeat(2,1fr) / repeat(2, 1fr) ;
   gap: 15px;
-  background-color: #000053;
+  background-color: #000013;
   padding: 10px;
 }
 .icon {
@@ -17,7 +17,7 @@ h3 {
 }
 .icon:hover {
   transform: scale(1.07);
-  /*background-color: #000004;*/
+  background-color: #fff4;
   border-radius: 9px;
 }
 img {
