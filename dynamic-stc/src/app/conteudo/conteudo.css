@@ -17,10 +17,17 @@ h3 {
 }
 .icon:hover {
   transform: scale(1.07);
-  background-color: #000004;
+  /*background-color: #000004;*/
   border-radius: 9px;
 }
 img {
   height: 100px;
   width: 100px;
+}
+
+@media screen and (min-width: 756px){
+  .imagens {
+    display: flex;
+    justify-content: space-around;
+  }
 }
