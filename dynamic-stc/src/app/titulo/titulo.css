@@ -3,14 +3,14 @@ section {
   text-align: center;
 }
 h2 {
-  background: linear-gradient(to right, mediumvioletred,blue,red);
+  background: linear-gradient(to right, mediumvioletred, blue, red);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
   font-size: 1.8rem;
 }
 h3 {
-  text-align: left;
+  text-align: center;
   font-size: 2rem;
   line-height: 5rex;
 }
