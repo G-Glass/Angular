@@ -14,3 +14,14 @@ h3 {
   font-size: 2rem;
   line-height: 5rex;
 }
+
+@media (min-width: 756px){
+
+  h3 {
+    font-size: 4rem;
+    line-height: 9rex;
+  }
+  h2{
+    font-size: 2.5rem;
+  }
+}
