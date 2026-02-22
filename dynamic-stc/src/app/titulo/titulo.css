@@ -7,12 +7,12 @@ h2 {
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  font-size: 1.8rem;
+  font-size: 1.7rem;
 }
 h3 {
   text-align: center;
-  font-size: 2rem;
-  line-height: 5rex;
+  font-size: 1.7rem;
+  line-height: 4rex;
 }
 
 @media (min-width: 756px){

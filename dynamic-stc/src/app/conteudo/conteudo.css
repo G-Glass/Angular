@@ -1,6 +1,6 @@
 h3 {
   font-family: 'Courier New', Courier, monospace;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   text-align: center;
   color: white;
 }
@@ -19,6 +19,8 @@ h3 {
 .icon:hover {
   transform: scale(1.1);
   background-color: #fff1;
+  box-shadow: 4px 4px;
+  border-radius: 8px;
 }
 img {
   height: 100px;
